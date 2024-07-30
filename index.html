@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/artistBarChart.js" defer type="module"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content" role="main">
+        <!-- This is the start of content for our page -->
+
+        <h1 class="title1">
+          Top Artists by Genre
+        </h1>
+        <a
+        class="btn--remix"
+        target="_top"
+        href="about.html"
+      >About</a>
+        
+        <select id="group-by" class="dropdown">
+          <option value="dance pop">Dance pop</option>
+          <option value="rap">Rap</option>
+          <option value="indie">Indie</option>
+        </select>
+        <p1>Click up to 5 bars to learn more about your favorite artists!</p1>
+        
+          <div class="chart">
+
+          </div>
+        
+        <div class="row">
+
+          <div class="lineChart">
+
+          </div>
+          <div class="bar-chart">
+            
+          </div>
+          <div class="scatterplot"></div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/aboutStyle.css" />
+
+    <!-- Import the webpage's javascript file -->
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content" role="main">
+        <!-- This is the start of content for our page -->
+            <a
+        class="btn--remix"
+        target="_top"
+        href="index.html"
+      >
+    Back</a>
+        <h4 class="subtitle">
+          Caitlyn Hancock, Gabi Piacentino, Joy Kondo, Matt Murno
+        </h4>
+        <h1 class="title1">
+          About the Project
+        </h1>
+        <h3 class="title2">
+          Project + Planning
+        </h3>
+        <h5 class="subtitle">
+When we got together to start planning for this project, we found ourselves talking about the genres of music and artists we enjoy.  This led us to the decision to find a dataset that would allow us to analyze some of the most popular genres, artists, and songs of today, using data from Spotify streams.  We decided to allow the user to select the genre they’re interested in, which then brings up a large bar chart of the most popular artists in that genre.  From there, the user can select up to five artists to learn more about specific attributes of their music and most popular songs.  Three sub-charts then appear.  
+The first is a scatterplot that tracks the danceability of the most popular songs of the selected artists by its release year.  The user is then able to see how one artist’s songs have changed in danceability over time or compare the danceability of multiple artists over time.  We chose this chart because it allows for us to track the artist’s danceability over time.  We also used color and a tooltip to specify which artist the tracks belonged to.
+The second chart is a bar chart that shows the average tempo of the artist’s songs in the top 100.  Users can see the average tempo of certain artists and compare it to others.  We chose a bar chart here because we wanted one visualization that talked about the artist more generally by providing the average tempo of their popular tracks, rather than the specific tempo of each song.
+The third chart is a scatterplot that maps the popularity (in terms of where on the Spotify top 100 tracks of that genre it currently is) by its duration.  Here, the user can see potential correlations between song length and popularity and compare this across multiple artists.   We chose a scatter plot in order to be able to show two linear axes while still being able to have the categorical data of which artist shown through color and a tooltip.    
+        
+        <h3 class="title2">
+          Design + Development
+        </h3>
+        </h5>
+        <h5 class="subtitle">
+Through collaborating with each other and working together towards our original plan, we naturally ran into some roadblocks with some of our initial ideas and had to adapt our design to accommodate these issues. We successfully split the workload so each member was responsible for one chart among the four. This proved to be effective, as we were able to work on our individual chart on our own time, and then come together at our daily meetings to discuss any issues we ran into and any changes we needed to make.  From here we were all able to work together on all aspects of the project to come up with alternative ideas for various issues.
+ Throughout the process we had to readjust our plans in order to do what made sense with the data and our capabilities.  We originally planned to use brushing to select the five artists from the main chart but ultimately ended up settling on clicking five due to issues with brushing over ordinal rather than linear data.  We also struggled with passing the data through to the subcharts but eventually figured out the best way to do so.  We spent many hours attempting to make a line chart as the first sub-chart, however, it was nearly impossible to make the lines connect to just the dots of the corresponding artist.  We ultimately had to make the decision to keep the chart as a scatterplot, though its functionality is still similar enough.  To solve these problems, we worked together, referred to past labs and the textbook, and did a lot of error checking and googling.  We learned a lot about making charts interactive, priming data to suit our needs, and creative approaches to more complex problems.  
+        </h5>
+        </div>
+    </div>
+</body>
+</html>
